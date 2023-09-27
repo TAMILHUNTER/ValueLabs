@@ -1,7 +1,7 @@
 [![Cucumber CI](https://github.com/Damm999/CucumberBDD/actions/workflows/CI.yml/badge.svg)](https://github.com/Damm999/CucumberBDD/actions/workflows/CI.yml)
 
-- Framework Developed By Tamil
-- 
+### Framework Developed By Tamil
+  
 # CucumberBDD
 > * This Framework contains cucumber.io and cucumber info cakes pom.xml file.
 > * Any JDK or JVm related check under pom.xml or build path to match the system required paths
@@ -44,14 +44,24 @@ Use For CICD Execution
 ## Features:
 * Allure Reporting
 * Junit Reporting
+![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0a326afc-806f-43fe-94e6-fab49885cbfd)
 
 
 * PDF Reporting
+
+  ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/9d973a52-378b-4b04-88f4-61fbd83abcde)
+
 * Screen Recording
-* Screenshots logging for reports 
+
+
+* Screenshots logging for reports
+
+  ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/b321df96-8b9d-4051-95cc-f09aa2bf8ab1)
+
 * Extent Reporting.
 
-  
+  ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/7d50e722-6b01-472c-b0bb-5bdaefac9bd8)
+
 * Cucumber latest jars (v6)
 * Extent Reports (v5)
 
