@@ -26,6 +26,7 @@
 
 * This Can be Configured in COnfiguration.properties File (Path : src\main\java\configuration\Configuration.properties)
 
+* Refer Guid.md File to get to know how to Import & Run
 
 ## Execution: 
 **Junit**:
