@@ -57,7 +57,9 @@
 
 * Screen Recording
 
-https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
+* View Sample - https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
+   
+## https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
 
 * Screenshots logging for reports
 
