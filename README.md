@@ -33,7 +33,8 @@
   * `clean compile test`
 * Or Run form command prompt:
   * `mvn clean compile test`
-Use For CICD Execution
+
+- Use For CICD Execution
 
 **Using Cucumber.Feature File**:
 * Open Feature File & Run As Cucumber Feature
@@ -42,10 +43,16 @@ Use For CICD Execution
 * Run from `MainTestRunner.java class` or from `testng.xml` file.
 
 ## Features:
-* Allure Reporting
+
+* Integrated With SLF4J For Logging Backend API Request & Reponse
+
+* Cucumber Report
+
+![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/b82fc187-ff05-495b-a199-eda1b295625a)
+
+
 * Junit Reporting
 ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0a326afc-806f-43fe-94e6-fab49885cbfd)
-
 
 * PDF Reporting
 
@@ -53,10 +60,7 @@ Use For CICD Execution
 
 * Screen Recording
 
-
 * Screenshots logging for reports
-
-  ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/b321df96-8b9d-4051-95cc-f09aa2bf8ab1)
 
 * Extent Reporting.
 
