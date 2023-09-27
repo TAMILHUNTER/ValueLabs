@@ -41,6 +41,10 @@
 
 ## Features:
 
+* Screen Recording - Click to View Sample - https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
+   
+[![https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe] 
+
 * Integrated With SLF4J For Logging Backend API Request & Reponse
 
 * Cucumber Report
@@ -54,10 +58,6 @@
 * PDF Reporting
 
   ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/9d973a52-378b-4b04-88f4-61fbd83abcde)
-
-* Screen Recording - Click to View Sample - https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
-   
-https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
 
 * Screenshots logging for reports
 
