@@ -10,9 +10,10 @@
 
 1. Java : Use (17.0.X) or More- LTS  
 2. Maven (3.9.X) or More
-3. Node.js
+3. Node.js (9.X.X) or more
 4. Eclipse IDE
 5. Cucumber Plugin
+6. Install Allure for Reporting
 
 ## Steps Needs to Do:
 
@@ -43,12 +44,16 @@
 
 * Integrated With SLF4J For Logging Backend API Request & Reponse
 
+* Allure Report
+
+  ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/7373053c-d0fa-4d82-b01d-d862ea35a7a5)
+
 * Cucumber Report
 
 ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/b82fc187-ff05-495b-a199-eda1b295625a)
 
-
 * Junit Reporting
+
 ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0a326afc-806f-43fe-94e6-fab49885cbfd)
 
 * PDF Reporting
