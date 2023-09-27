@@ -20,6 +20,7 @@
 ## Step 3
 ![Screenshot (46)](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/b3d7e8f2-77f9-453a-8d61-24e2e6df6ac6)
 ## Step 4
+Copy Chrome Binary Files to Workspace (or Configure Chrome Binary path in COnfiguration.Properties File)
 ![Screenshot (47)](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/2f7fdc00-5fa5-4e4e-bb52-6c7d25fd77e3)
 ## Step 5
 ![Screenshot (48)](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/64a21f02-15cc-412b-a25d-e3a24ec96198)
