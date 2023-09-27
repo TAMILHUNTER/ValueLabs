@@ -39,9 +39,6 @@
 **Using Cucumber.Feature File**:
 * Open Feature File & Run As Cucumber Feature
 
-**TestNG**:
-* Run from `MainTestRunner.java class` or from `testng.xml` file.
-
 ## Features:
 
 * Integrated With SLF4J For Logging Backend API Request & Reponse
@@ -59,6 +56,8 @@
   ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/9d973a52-378b-4b04-88f4-61fbd83abcde)
 
 * Screen Recording
+
+https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
 
 * Screenshots logging for reports
 
