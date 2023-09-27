@@ -55,9 +55,7 @@
 
   ![image](https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/9d973a52-378b-4b04-88f4-61fbd83abcde)
 
-* Screen Recording
-
-* View Sample - https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
+* Screen Recording - Click to View Sample - https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
    
 https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
 
