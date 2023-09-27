@@ -189,7 +189,7 @@
 				</dependencies>
 				<configuration>
 					<includes>
-						<exclude>**/*E2E_TestRunner.java</exclude>
+						<exclude>**/*Tamil_WorkingSuite.java</exclude>
 					</includes>
 					<parallel>all</parallel>
 					<useSystemClassLoader>false</useSystemClassLoader>
