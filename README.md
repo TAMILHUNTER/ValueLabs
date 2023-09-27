@@ -43,7 +43,7 @@
 
 * Screen Recording - Click to View Sample - https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe
    
-[![https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe] 
+[https://github.com/TAMILHUNTER/ValueLabs/assets/42236012/0486cf27-1661-4277-96a2-4453707fc0fe] 
 
 * Integrated With SLF4J For Logging Backend API Request & Reponse
 
