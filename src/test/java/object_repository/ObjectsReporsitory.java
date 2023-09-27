@@ -190,7 +190,7 @@ public class ObjectsReporsitory {
 	@FindBy(how = How.ID, using="proceedURLRedirection")
 	public static WebElement Proceedpayment;
 	
-	@FindBy(how = How.XPATH, using="//a[@title='mystc']")
+	@FindBy(how = How.XPATH, using="//li[@title='Personal']//a")
 	public static WebElement MySTC;
 	
 	@FindBy(how = How.ID, using="card_holder_name")
