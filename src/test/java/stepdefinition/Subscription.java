@@ -69,6 +69,45 @@ public class Subscription {
 
 	}
 
+	@Then("Verify User can be able to select Country")
+	public static void verify_user_can_be_able_to_select_country() throws InterruptedException {
+
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_btn));
+		ObjectsReporsitory.Country_btn.click();
+
+		Random rand422 = new Random();
+		int Country_Size = rand422.nextInt(ObjectsReporsitory.Country_Count.size());
+		ObjectsReporsitory.Country_Count.get(Country_Size).click();
+
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_btn));
+		System.out.println("Country Selected Successfully");
+
+	}
+
+	@Then("Verify User can be able to select Country BH")
+	public static void verify_user_can_be_able_to_select_country_BH() throws InterruptedException {
+
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_btn));
+		ObjectsReporsitory.Country_btn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_bahrain));
+		ObjectsReporsitory.Country_bahrain.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_btn));
+		System.out.println("BH Country Selected Successfully");
+
+	}
+
+	@Then("Verify User can be able to select Country KW")
+	public static void verify_user_can_be_able_to_select_country_KW() throws InterruptedException {
+
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_btn));
+		ObjectsReporsitory.Country_btn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_KW));
+		ObjectsReporsitory.Country_KW.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_btn));
+		System.out.println("KW Country Selected Successfully");
+
+	}
+
 	@Then("Verify User can be able to select Country KSA")
 	public static void verify_user_can_be_able_to_select_country_KSA() throws InterruptedException {
 
@@ -79,7 +118,7 @@ public class Subscription {
 //		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_Popup_Close));
 //		ObjectsReporsitory.Country_Popup_Close.click();
 		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Country_btn));
-		System.out.println("Country Selected Successfully");
+		System.out.println("KSA Country Selected Successfully");
 
 	}
 
@@ -241,6 +280,42 @@ public class Subscription {
 
 	}
 
+	@Then("Verify User can be able to select Lite Subscription package")
+	public void verify_user_can_be_able_to_select_Lite_subscription_package() throws InterruptedException {
+
+		Actions actionmove = new Actions(DriverFactory.driver);
+		actionmove.moveToElement(ObjectsReporsitory.Plan_Lite_btn).perform();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Plan_Lite_btn));
+		ObjectsReporsitory.Plan_Lite_btn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.PaymentMethod_Next_btn));
+		System.out.println("Selected " + ObjectsReporsitory.Selected_Plan.getText());
+
+	}
+
+	@Then("Verify User can be able to select Classic Subscription package")
+	public void verify_user_can_be_able_to_select_Classic_subscription_package() throws InterruptedException {
+
+		Actions actionmove = new Actions(DriverFactory.driver);
+		actionmove.moveToElement(ObjectsReporsitory.Plan_Lite_btn).perform();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Plan_Classic_btn));
+		ObjectsReporsitory.Plan_Classic_btn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.PaymentMethod_Next_btn));
+		System.out.println("Selected " + ObjectsReporsitory.Selected_Plan.getText());
+
+	}
+
+	@Then("Verify User can be able to select Premium Subscription package")
+	public void verify_user_can_be_able_to_select_Premium_subscription_package() throws InterruptedException {
+
+		Actions actionmove = new Actions(DriverFactory.driver);
+		actionmove.moveToElement(ObjectsReporsitory.Plan_Lite_btn).perform();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Plan_Premium_btn));
+		ObjectsReporsitory.Plan_Premium_btn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.PaymentMethod_Next_btn));
+		System.out.println("Selected " + ObjectsReporsitory.Selected_Plan.getText());
+
+	}
+
 	@Then("Verify system displayes Subscription package price details correctly")
 	public void verify_system_displayes_subscription_package_price_details_correctly() throws InterruptedException {
 
@@ -264,6 +339,25 @@ public class Subscription {
 		ObjectsReporsitory.Payment_Method.get(PaymentMothod_Size).click();
 		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.PaymentMethod_Next_btn));
 		System.out.println("Payment Method selected");
+	}
+
+	@Then("Verify user can be able to choose Payment Method STC")
+	public void verify_user_can_be_able_to_choose_payment_method_STC() throws InterruptedException {
+
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Payment_Method_STC));
+		ObjectsReporsitory.Payment_Method_STC.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.PaymentMethod_Next_btn));
+		System.out.println("STC Payment Method selected");
+	}
+
+	@Then("Verify user can be able to choose Payment Method VISA")
+	public void verify_user_can_be_able_to_choose_payment_method_VISA() throws InterruptedException {
+
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.Payment_Method_VISA));
+		ObjectsReporsitory.Payment_Method_STC.click();
+		wait.until(ExpectedConditions.elementToBeClickable(ObjectsReporsitory.PaymentMethod_Next_btn));
+		System.out.println("VISA Payment Method selected");
+
 	}
 
 	@Then("Verify system displayes Order Summery correctly")

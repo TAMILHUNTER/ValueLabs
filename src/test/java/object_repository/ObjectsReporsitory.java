@@ -61,6 +61,12 @@ public class ObjectsReporsitory {
 	@FindBy(how = How.ID, using = "lite-selection")
 	public static WebElement Plan_Lite_btn;
 
+	@FindBy(how = How.ID, using = "classic-selection")
+	public static WebElement Plan_Classic_btn;
+	
+	@FindBy(how = How.ID, using = "premium-selection")
+	public static WebElement Plan_Premium_btn;
+	
 	@FindBy(how = How.XPATH, using = "//button[@id='btnChoosePaymentMethod']")
 	public static WebElement PaymentMethod_Next_btn;
 
@@ -75,7 +81,13 @@ public class ObjectsReporsitory {
 
 	@FindBy(how = How.XPATH, using = "//div[@class='payment-option']")
 	public static List<WebElement> Payment_Method;
+	
+	@FindBy(how = How.XPATH, using = "(//div[@class='payment-option'])[1]")
+	public static WebElement Payment_Method_STC;
 
+	@FindBy(how = How.XPATH, using = "(//div[@class='payment-option'])[2]")
+	public static WebElement Payment_Method_VISA;
+	
 	@FindBy(how = How.ID, using = "order-tier-price")
 	public static WebElement Summery_Price;
 
@@ -85,6 +97,9 @@ public class ObjectsReporsitory {
 	@FindBy(how = How.XPATH, using = "(//a[@class='plan-link'])")
 	public static List<WebElement> Plan_Count;
 
+	@FindBy(how = How.XPATH, using = "(//div[@id='country-selct']//div[@class='flag']//img)")
+	public static List<WebElement> Country_Count;
+	
 	@FindBy(how = How.XPATH, using = "(//a[@class='button inverse'])")
 	public static List<WebElement> AddOn_Plan_Details_Selection;
 	

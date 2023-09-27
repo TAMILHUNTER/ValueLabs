@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"stepdefinition" }, 
 		monochrome = true, 
 		publish = true, 
-				tags = "@Validating_the_Subscription_Packages",
+				tags = "@ValueLabs_E2E",
 						
 						
 		plugin = { 
